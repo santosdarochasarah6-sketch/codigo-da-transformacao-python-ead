@@ -1,4 +1,6 @@
 '''
+Atividade Incompleta - 7.0
+
 Isso é um bloco de comentários.
 >>projeto açaíteria:
 
@@ -235,27 +237,27 @@ while True:
                 print('🔥' * 30)
                 
             # Mostra o Produto 3 se ele existir
-            if p3_nome != "":
+            if p3_nome != "açaí personalizavél":
 
-                print(f"Nome: {p3_nome} | Preço: R$ {p3_preco:.2f} | Estoque: {p3_estoque} unid.")
+                print(f"Nome:açaí personalisavél {p3_nome} | Preço:15.90 R$ {p3_preco:.2f} | Estoque:130 {p3_estoque} unid.")
 
-                print(f"Validade: {p3_validade} | Descrição: {p3_descricao}")
-
-                print('🔥' * 30)
-
-            if p4_nome != "":
-
-                print(f"Nome: {p4_nome} | Preço: R$ {p4_preco:.2f} | Estoque: {p4_estoque} unid.")
-
-                print(f"Validade: {p4validade} | Descrição: {p4_descricao}")
+                print(f"Validade:10/12/2026 {p3_validade} | Descrição:açaí personalizavél, personalize do seu jeito {p3_descricao}")
 
                 print('🔥' * 30)
 
-            if p5_nome != "":
+            if p4_nome != "açaí light":
 
-                print(f"Nome: {p5_nome} | Preço: R$ {p5_preco:.2f} | Estoque: {p5_estoque} unid.")
+                print(f"Nome:açaí light {p4_nome} | Preço:23.90 R$ {p4_preco:.2f} | Estoque:95{p4_estoque} unid.")
 
-                print(f"Validade: {p5_validade} | Descrição: {p5_descricao}")
+                print(f"Validade:05/12/2026 {p4validade} | Descrição:açaí light, sem açúcar e derivados glutinosos {p4_descricao}")
+
+                print('🔥' * 30)
+
+            if p5_nome != "barca de açaí":
+
+                print(f"Nome:barca de açaí {p5_nome} | Preço:30.90 R$ {p5_preco:.2f} | Estoque:123 {p5_estoque} unid.")
+
+                print(f"Validade:08/12/2026 {p5_validade} | Descrição:barca de açaí, com varios tipos de frutas e acompanhamentos recheados {p5_descricao}")
 
                 print('🔥' * 30)
 
