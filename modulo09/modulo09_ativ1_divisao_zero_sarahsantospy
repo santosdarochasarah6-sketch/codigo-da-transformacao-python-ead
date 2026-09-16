@@ -1,0 +1,21 @@
+def calculadora_divisao(numerador, denominador):
+    
+   
+    
+    
+    try:
+        
+        resultado = numerador / denominador
+        return f"Resultado da divisão: {resultado}"
+        
+    except ZeroDivisionError:
+       
+        return "Erro: Não é possível realizar divisão por zero!"
+
+
+print("--- Teste 1 ---")
+print(calculadora_divisao(10, 2))
+
+
+print("\n--- Teste 2 ---")
+print(calculadora_divisao(10, 0))
